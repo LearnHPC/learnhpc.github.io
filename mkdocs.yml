@@ -1,0 +1,41 @@
+site_name: "LearnHPC - Scalable HPC Training"
+google_analytics:
+    - UA-168742780-1
+    - auto
+theme:
+  name: material
+  logo: img/learnhpc_logo.png
+  features:
+      - instant
+repo_name: LearnHPC @ GitHub
+repo_url: https://github.com/HPCinEurope
+edit_uri: learnhpc/edit/master/docs
+nav:
+  - "Home": index.md
+  - EESSI: eessi/README.md
+plugins:
+  # show revision date at bottom of each page
+  - git-revision-date-localized
+  # necessary for search to work
+  - search
+markdown_extensions:
+  # notes, warnings, hints, ...
+  - admonition
+  # code blocks with syntax highlighting, graphs
+  - pymdownx.superfences
+  # clickable details
+  - pymdownx.details
+  # tabbed contents
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
+extra:
+  # add links in bottom right
+  social:
+      - type: github
+        icon: octicons/logo-github
+        link: https://github.com/HPCinEurope
+      #- icon: fontawesome/brands/twitter
+      #  link: https://twitter.com/learnhpc
+      #- icon: fontawesome/brands/youtube
+      #  link: https://www.youtube.com/c/learnhpc
