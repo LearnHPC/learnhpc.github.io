@@ -5,7 +5,7 @@
 ## What is this website for?
 
 Unfortunately the answer is "not much" right now. The goal is to act as a gateway to materials,
-resources and tools that will make remove as many barriers as possible in the learners journey
+resources and tools that will remove as many barriers as possible in the learners journey
 when discovering High Performance Computingi (HPC).
 
 ### Intended audience
