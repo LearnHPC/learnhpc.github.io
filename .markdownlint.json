@@ -4,6 +4,7 @@
   "default": true,
   "whitespace": false,
   "MD013": { "line_length": 120 },
+  "MD026": false,
   "ul-start-left": false,
   "ul-indent": false,
   "no-inline-html": false,
