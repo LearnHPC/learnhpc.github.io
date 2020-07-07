@@ -19,6 +19,7 @@ which makes it very easy to preview the result of the changes you make locally.
 
       mkdocs serve
 
+  <!-- markdown-link-check-disable-next-line -->
   Visit http://127.0.0.1:8000 to see the local live preview of the changes you make.
 
 * If you prefer building a static preview you can use ``make`` or ``mkdocs build``,
@@ -26,6 +27,7 @@ which makes it very easy to preview the result of the changes you make locally.
 
 ## Automatic updates
 
+<!-- markdown-link-check-disable-next-line -->
 The rendered version of this page at https://www.learnhpc.eu
 is automatically updated on every push to the ``master`` branch,
 thanks to the GitHub Actions workflow defined in
@@ -33,6 +35,7 @@ thanks to the GitHub Actions workflow defined in
 
 The [``gh-pages``](https://github.com/HPCinEurope/learnhpc/tree/gh-pages) branch in this repository contains the rendered version.
 
+<!-- markdown-link-check-disable-next-line -->
 https://www.learnhpc.eu will only be updated if the tests pass,
 see GitHub Actions workflow defined in
 [``.github.workflows/test.yml``](https://github.com/HPCinEurope/learnhpc/blob/master/.github/workflows/test.yml).
