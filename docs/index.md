@@ -1,6 +1,6 @@
 <p align="center"><img src="img/learnhpc_logo.png" alt="LearnHPC logo" width="20%"/></p>
 
-# Welcome to the LearnHPC!
+# Welcome to LearnHPC!
 
 ## What is this website for?
 
