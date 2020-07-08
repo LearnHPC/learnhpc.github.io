@@ -4,7 +4,7 @@ google_analytics:
     - auto
 theme:
   name: material
-  logo: img/learnhpc_logo.png
+  logo: img/learnhpc_logo_white.png
   features:
       - instant
 repo_name: LearnHPC @ GitHub
