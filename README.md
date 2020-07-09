@@ -31,14 +31,14 @@ which makes it very easy to preview the result of the changes you make locally.
 The rendered version of this page at https://www.learnhpc.eu
 is automatically updated on every push to the ``master`` branch,
 thanks to the GitHub Actions workflow defined in
-[``.github/workflows/deploy.yml``](https://github.com/HPCinEurope/learnhpc/blob/master/.github/workflows/deploy.yml).
+[``.github/workflows/deploy.yml``](https://github.com/LearnHPC/learnhpc/blob/master/.github/workflows/deploy.yml).
 
-The [``gh-pages``](https://github.com/HPCinEurope/learnhpc/tree/gh-pages) branch in this repository contains the rendered version.
+The [``gh-pages``](https://github.com/LearnHPC/learnhpc/tree/gh-pages) branch in this repository contains the rendered version.
 
 <!-- markdown-link-check-disable-next-line -->
 https://www.learnhpc.eu will only be updated if the tests pass,
 see GitHub Actions workflow defined in
-[``.github.workflows/test.yml``](https://github.com/HPCinEurope/learnhpc/blob/master/.github/workflows/test.yml).
+[``.github.workflows/test.yml``](https://github.com/LearnHPC/learnhpc/blob/master/.github/workflows/test.yml).
 
 **Note**: **do *not* change the files in the ``gh-pages`` branch directly!**
 
