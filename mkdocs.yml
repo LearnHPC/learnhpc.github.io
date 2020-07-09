@@ -8,7 +8,7 @@ theme:
   features:
       - instant
 repo_name: LearnHPC @ GitHub
-repo_url: https://github.com/HPCinEurope
+repo_url: https://github.com/LearnHPC
 edit_uri: learnhpc/edit/master/docs
 nav:
   - "Home": index.md
@@ -34,7 +34,7 @@ markdown_extensions:
   # social:
       #- type: github
       #  icon: octicons/logo-github
-      #  link: https://github.com/HPCinEurope
+      #  link: https://github.com/LearnHPC
       #- icon: fontawesome/brands/twitter
       #  link: https://twitter.com/learnhpc
       #- icon: fontawesome/brands/youtube
