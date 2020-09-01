@@ -15,9 +15,9 @@ qr_div.className += "md-sidebar__inner"
 var qr_button = document.createElement("button");
 
 // Style the buttons
-listen_button.innerHTML = '<label class="md-nav__title">Audio &#x23ef;</label>';
+listen_button.innerHTML = '<label class="md-nav md-nav--secondary md-nav__title">Audio &#x23ef;</label>';
 listen_button.style.marginTop = '5px'
-qr_button.innerHTML = '<label class="md-nav__title">Display QR</label>';
+qr_button.innerHTML = '<label class="md-nav md-nav--secondary md-nav__title">Display QR</label>';
 qr_button.style.marginTop = '5px'
 
 // Append buttons to the main div
