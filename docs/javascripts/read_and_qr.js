@@ -1,30 +1,25 @@
 // Get the article we want to play with
 var article = document.getElementsByTagName("article")[0];  
 
-// Create a div to place everything
-var div = document.createElement("div");
-div.className += "md-sidebar__scrollwrap"
 
 // Create the buttons
 var listen_div = document.createElement("div");
-listen_div.className += "md-sidebar__inner"
 var listen_button = document.createElement("button");
 
 var qr_div = document.createElement("div");
-qr_div.className += "md-sidebar__inner"
 var qr_button = document.createElement("button");
 
 // Style the buttons
-listen_button.innerHTML = '<label class="md-nav md-nav--secondary md-nav__title">Audio &#x23ef;</label>';
+listen_button.innerHTML = '<label">Audio &#x23ef;</label>';
 listen_button.style.marginTop = '5px'
-qr_button.innerHTML = '<label class="md-nav md-nav--secondary md-nav__title">Display QR</label>';
+listen_button.style.marginBottom = '5px'
+qr_button.innerHTML = '<label">Display QR</label>';
 qr_button.style.marginTop = '5px'
+qr_button.style.marginBottom = '5px'
 
 // Append buttons to the main div
 listen_div.appendChild(listen_button);
 qr_div.appendChild(qr_button);
-div.appendChild(listen_div);
-div.appendChild(qr_div);
 
 //
 // Add event handler for audio
@@ -66,7 +61,7 @@ qr_code_img.id = "qrcode";
 var qr = false;  
 
 // add the canvas to our div
-div.appendChild(qr_code_img);
+qr_div.appendChild(qr_code_img);
 
 // Make the listener create the image if needed and toggle it on and off
 qr_button.addEventListener ("click", function() {
@@ -85,7 +80,7 @@ qr_button.addEventListener ("click", function() {
 });
 
 //
-// Finally add the div
+// Finally add the divs
 //
-var sidebar = document.getElementsByClassName("md-sidebar--secondary");
-sidebar[0].appendChild(div);
+article.insertBefore(listen_div,article.firstChild);
+article.appendChild(qr_div);
