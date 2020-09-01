@@ -3,23 +3,28 @@ var article = document.getElementsByTagName("article")[0];  
 
 // Create a div to place everything
 var div = document.createElement("div");
-div.style.left = "50%";
-div.style.right = "50%";
-div.style.position = "relative"
+div.className += "md-sidebar__scrollwrap"
 
 // Create the buttons
+var listen_div = document.createElement("div");
+listen_div.className += "md-sidebar__inner"
 var listen_button = document.createElement("button");
+
+var qr_div = document.createElement("div");
+qr_div.className += "md-sidebar__inner"
 var qr_button = document.createElement("button");
 
 // Style the buttons
-listen_button.innerHTML = '<h3>&#x23ef;</h3>';
-listen_button.style.margin = '5px'
-qr_button.innerHTML = '<h3>Display QR</h3>';
-qr_button.style.margin = '5px'
+listen_button.innerHTML = '<label class="md-nav__title">Audio &#x23ef;</label>';
+listen_button.style.marginTop = '5px'
+qr_button.innerHTML = '<label class="md-nav__title">Display QR</label>';
+qr_button.style.marginTop = '5px'
 
-// Append buttons to the div
-div.appendChild(listen_button);
-div.appendChild(qr_button);
+// Append buttons to the main div
+listen_div.appendChild(listen_button);
+qr_div.appendChild(qr_button);
+div.appendChild(listen_div);
+div.appendChild(qr_div);
 
 //
 // Add event handler for audio
@@ -68,7 +73,7 @@ qr_button.addEventListener ("click", function() {
   if (!qr) {
     qr = new QRious({
       element: document.getElementById('qrcode'),
-      size: 200,
+      // size: 200,
       value: window.location.href
     })
   }
@@ -82,5 +87,5 @@ qr_button.addEventListener ("click", function() {
 //
 // Finally add the div
 //
-
-article.appendChild(div);
+var sidebar = document.getElementsByClassName("md-sidebar--secondary");
+sidebar[0].appendChild(div);
