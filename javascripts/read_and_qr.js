@@ -86,6 +86,6 @@ article.insertBefore(listen_div,article.firstChild);
 article.appendChild(qr_div);
 
 // Make sure the audio stops when the page is unloaded (but not on a mobile device)
-if (!/Mobi/.test(navigator.userAgent)) {
+if (!(/Mobi/.test(navigator.userAgent))) {
     window.addEventListener("unload", function(event) { synth.cancel(); });
 }
