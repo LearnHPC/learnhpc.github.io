@@ -84,3 +84,6 @@ qr_button.addEventListener ("click", function() {
 //
 article.insertBefore(listen_div,article.firstChild);
 article.appendChild(qr_div);
+
+// Make sure the audio stops when the page is unloaded
+window.addEventListener("unload", function(event) { synth.cancel(); });
