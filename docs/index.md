@@ -35,27 +35,20 @@ Hopefully these biases help more they hurt!
 
 ## Contents
 
-1. Scalable HPC Training - an overview of the LearnHPC approach
+1. [Scalable HPC Training - an overview of the LearnHPC approach](learnhpc/README.md)
 
-1. Getting access to HPC resources
+2. Getting access to HPC resources.
+    1. [Via LearnHPC](learnhpc/README.md#accessing-learnhpc-resources)
+    2. [Accessing larger scale resources](learnhpc/README.md#accessing-larger-scale-resources)
 
-   1. Via LearnHPC (and Magic Castle)
-   2. Accessing larger scale resources
-
-1. Providing a software environment
-   
-   1. [European Environment for Scientific Software Installations](eessi/README.md)
-   1. Installing your own software
-      1. EasyBuild
-      2. Spack
+3. [Providing a software environment](eessi/README.md)
     
-1. Training material
-
-   1. Introductory training
-      1. HPC Carpentry
-   2. Intermediate/advanced training
-      1. PRACE
-      2. HPC Centres of Excellence
+4. Training material
+    1. Introductory training
+        1. [HPC Carpentry](https://www.hpc-carpentry.org/)
+    2. Intermediate/advanced training
+        1. [PRACE](https://training.prace-ri.eu/)
+        2. [HPC Centres of Excellence](https://www.hpccoe.eu/index.php/coe-training-calendar/)
 
 ## Contributors
 

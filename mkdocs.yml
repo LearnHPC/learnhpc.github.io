@@ -12,7 +12,9 @@ repo_url: https://github.com/LearnHPC
 edit_uri: learnhpc/edit/master/docs
 nav:
   - "Home": index.md
-  - EESSI: eessi/README.md
+  - "Overview": learnhpc/README.md
+  - "Accessing Resources": "learnhpc/#accessing-learnhpc-resources"
+  - "Software Environment": eessi/README.md
 plugins:
   # show revision date at bottom of each page
   - git-revision-date-localized
