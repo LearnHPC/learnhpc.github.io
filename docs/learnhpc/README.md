@@ -19,7 +19,7 @@ software distribution system developed at CERN, CernVM-FS, and makes a research-
 scalable software stack available for a wide set of HPC systems, as well as servers,
 desktops and laptops (including MacOS and Windows!).
 
-> ### Magic Castle
+> ## Magic Castle
 > 
 > The concept is built upon the solution of
 > [Compute Canada](https://www.computecanada.ca/),
@@ -67,3 +67,4 @@ direction:
   PRACE also has connections to national HPC sites, in addition to providing various
   levels of access to a huge range of European HPC resources (including the largest HPC
   sites in Europe)
+  
