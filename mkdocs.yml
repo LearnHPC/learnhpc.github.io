@@ -13,7 +13,7 @@ edit_uri: learnhpc/edit/master/docs
 nav:
   - "Home": index.md
   - "Overview": learnhpc/README.md
-  - "Accessing Resources": "learnhpc/#accessing-learnhpc-resources"
+  - "Accessing Resources": "/learnhpc/#accessing-learnhpc-resources"
   - "Software Environment": eessi/README.md
 plugins:
   # show revision date at bottom of each page
