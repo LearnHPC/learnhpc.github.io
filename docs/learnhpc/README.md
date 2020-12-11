@@ -9,7 +9,7 @@ questionable.
 
 EU-wide access to HPC resources on the scale required to meet the training needs of all
 countries is an objective that we attempt to address with this project. The proposed
-solution essentially provisions virtual HPC system(s) in a public cloud. This
+solution essentially provisions virtual HPC systems in a public cloud. This
 infrastructure will allow us to dynamically create temporary event-specific HPC clusters
 for training purposes, **including a scientific software stack**.
 
@@ -31,7 +31,7 @@ desktops and laptops (including MacOS and Windows!).
 Our adaption of Magic Castle aims to recreate the EESSI HPC user experience, for
 training purposes, primarily on the
 [Fenix Research Infrastructure](https://fenix-ri.eu/) but can also leverage other cloud
-provides such as Azure, AWS, OVH and any provider using OpenStack for provisioning.
+providers such as Azure, AWS, OVH and any provider using OpenStack for provisioning.
 After deployment, the user is provided with a complete HPC cluster software environment
 including a Slurm scheduler, a Globus Endpoint, JupyterHub, LDAP, DNS, and a wide
 selection of research software applications compiled by experts with EasyBuild.
