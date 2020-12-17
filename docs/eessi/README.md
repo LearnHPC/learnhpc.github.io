@@ -55,7 +55,7 @@ Since EasyBuild is what underpins the software applications of EESSI, you are li
 find the integration with the EESSI to be extensive.
 
 There is a one day introduction to EasyBuild at
-https://easybuilders.github.io/easybuild-tutorial/
+[https://easybuilders.github.io/easybuild-tutorial/](https://easybuilders.github.io/easybuild-tutorial/)
 
 ### [Spack](https://spack.readthedocs.io/en/latest/)
 
@@ -67,4 +67,4 @@ that do not have a standard ABI. Spack is non-destructive: installing a new vers
 not break existing installations, so many configurations can coexist on the same system.
 
 You can find a one-day introduction to Spack tutorial at
-https://spack-tutorial.readthedocs.io/en/latest/
+[https://spack-tutorial.readthedocs.io/en/latest/](https://spack-tutorial.readthedocs.io/en/latest/)
