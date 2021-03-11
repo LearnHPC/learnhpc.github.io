@@ -10,10 +10,10 @@ var qr_div = document.createElement("div");
 var qr_button = document.createElement("button");
 
 // Style the buttons
-listen_button.innerHTML = '<label">Audio &#x23ef;</label>';
+listen_button.innerHTML = '<label>Audio &#x23ef;</label>';
 listen_button.style.marginTop = '5px'
 listen_button.style.marginBottom = '5px'
-qr_button.innerHTML = '<label">Display QR</label>';
+qr_button.innerHTML = '<label>Display QR</label>';
 qr_button.style.marginTop = '5px'
 qr_button.style.marginBottom = '5px'
 
