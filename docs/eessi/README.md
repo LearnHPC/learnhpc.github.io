@@ -27,7 +27,7 @@ wide variety of CPU architectures (Intel, AMD, ARM, POWER, RISC-V).
 ## Installing your own software
 
 As the EESSI platform develops, we will expand the documentation to include the case
-where you would like to install your software builing upon the EESSI stack. Of course
+where you would like to install your software building upon the EESSI stack. Of course
 you are always free to install your software however you see fit, but you should be
 aware that (at least) two powerful tools exist to facilitate this,
 [EasyBuild](https://easybuild.readthedocs.io/en/latest/) and
