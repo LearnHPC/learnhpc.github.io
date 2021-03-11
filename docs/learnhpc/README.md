@@ -40,7 +40,7 @@ selection of research software applications compiled by experts with EasyBuild.
 
 At present, we do not have a specific mechanism to request access to LearnHPC resources.
 To find out what is possible, please get in touch by email with Alan O'Cais
-([a.ocais@f-juelich.de](mailto:a.ocais@fz-juelich.de))
+([alan@learnhpc.eu](mailto:alan@learnhpc.eu))
 
 ## Accessing larger scale resources
 
