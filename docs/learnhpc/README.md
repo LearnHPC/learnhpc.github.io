@@ -38,7 +38,7 @@ selection of research software applications compiled by experts with EasyBuild.
 
 ## Accessing LearnHPC resources
 
-Through the [FENIX Research Infrastructure]{https://fenix-ri.eu/} and the generosity of
+Through the [FENIX Research Infrastructure](https://fenix-ri.eu/) and the generosity of
 [AWS](https://aws.amazon.com/), LearnHPC can offer the use of moderately sized clusters
 configured specifically for your training events (and potentially with GPU and
 infiniband interconnect support). 
