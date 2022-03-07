@@ -1,7 +1,4 @@
 site_name: "LearnHPC - Scalable HPC Training"
-google_analytics:
-    - UA-168742780-1
-    - auto
 theme:
   name: material
   logo: img/learnhpc_logo_white.png
@@ -31,6 +28,10 @@ markdown_extensions:
   - pymdownx.tabbed
   - toc:
       permalink: true
+extra:
+  analytics:
+    provider: google
+    property: UA-168742780-1
 # extra:
   # add links in bottom right
   # social:
