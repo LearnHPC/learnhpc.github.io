@@ -29,7 +29,7 @@ pretty brief, and the details you can find through the links.
 
 There are likely many biases in the way we present things here (and content we include),
 which reflect the activities and interests of the people who have contributed them.
-Hopefully these biases help more they hurt! 
+Hopefully these biases help more than they hurt! 
 
 ---
 
